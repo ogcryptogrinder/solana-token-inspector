@@ -7,7 +7,7 @@ A small TypeScript CLI that reads any Solana token with [`@solana/kit`](https://
 
 Read only. It never signs or sends a transaction and needs no keys, no wallet and no SOL.
 
-Step-by-step tutorial: [How to Read Any Solana Token in TypeScript with @solana/kit](https://sanket.hashnode.dev/read-solana-token-typescript-kit)
+Step-by-step tutorial: [How to Read Any Solana Token in TypeScript with @solana/kit](https://sanketwrites.hashnode.dev/read-solana-token-typescript-kit)
 
 ## What it handles
 

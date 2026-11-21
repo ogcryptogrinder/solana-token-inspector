@@ -1,0 +1,39 @@
+{
+  "name": "solana-token-inspector",
+  "version": "1.0.0",
+  "description": "Read any Solana token (balances, mints, Token-2022 extensions, metadata) with @solana/kit",
+  "scripts": {
+    "slot": "tsx src/rpc.ts",
+    "format": "tsx src/format.ts",
+    "balances": "tsx src/balances.ts",
+    "mint": "tsx src/mint.ts",
+    "extensions": "tsx src/extensions.ts",
+    "metadata": "tsx src/metadata.ts",
+    "null-padding": "tsx src/null-padding.ts",
+    "bigint-json": "tsx src/bigint-json.ts",
+    "inspect": "tsx src/inspect.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "author": "Sanket (https://github.com/ogcryptogrinder)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ogcryptogrinder/solana-token-inspector.git"
+  },
+  "type": "module",
+  "dependencies": {
+    "@solana-program/token": "0.18.0",
+    "@solana-program/token-2022": "0.20.1",
+    "@solana/kit": "8.6.0",
+    "@solana/sysvars": "8.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}
